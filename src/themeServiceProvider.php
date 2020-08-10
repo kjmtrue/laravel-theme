@@ -40,7 +40,7 @@ class themeServiceProvider extends ServiceProvider
         | Register helpers.php functions
         |--------------------------------------------------------------------------*/
 
-        require_once 'Helpers/helpers.php';
+        require_once __DIR__.'/Helpers/helpers.php';
 
     }
 
